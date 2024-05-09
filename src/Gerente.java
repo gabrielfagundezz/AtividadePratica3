@@ -17,6 +17,16 @@ public class Gerente extends Funcionario{
         return getSalario() + bonusAnual;
     }
 
+    @Override
+    public String trabalhar() {
+        return "O Gerente " + getNome() + " trabalhou!";
+    }
+
+    @Override
+    public String relatarProgresso() {
+        return "O Gerente " + getNome() + " trabalhou!";
+    }
+
     
     
 

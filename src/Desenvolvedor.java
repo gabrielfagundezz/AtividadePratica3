@@ -13,4 +13,15 @@ public class Desenvolvedor extends Funcionario {
         return getSalario() + (50.00 * horasTrabalhadas); // cada hora trabalhada são 50 reais a mais no salário
     }
 
+    @Override
+    public String trabalhar() {
+        return "O Desenvolvedor " + getNome() + " trabalhou!";
+    }
+
+    @Override
+    public String relatarProgresso() {
+        return "O Desenvolvedor " + getNome() + " relatou progresso!";
+    }
+
+
 }
