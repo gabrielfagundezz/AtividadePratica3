@@ -7,10 +7,13 @@ public class Estagiario extends Funcionario {
 
     }
 
-    public Estagiario(int horasTrabalho, String supervisor) {
+    public Estagiario(String nome, int matricula, double salario, int horasTrabalho, String supervisor) {
+        super(nome, matricula, salario);
         this.horasTrabalho = horasTrabalho;
         this.supervisor = supervisor;
     }
+
+
 
     @Override
     public double calcularSalario() {

@@ -3,7 +3,8 @@ public class Desenvolvedor extends Funcionario {
     private String tecnologias;
     private int horasTrabalhadas;
 
-    public Desenvolvedor(String tecnologias, int horasTrabalhadas) {
+    public Desenvolvedor(String nome, int matricula, double salario, String tecnologias, int horasTrabalhadas) {
+        super(nome, matricula, salario);
         this.tecnologias = tecnologias;
         this.horasTrabalhadas = horasTrabalhadas;
     }

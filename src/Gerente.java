@@ -7,10 +7,13 @@ public class Gerente extends Funcionario{
 
     }
 
-    public Gerente(double bonusAnual, String equipeSobGerencia) {
+    public Gerente(String nome, int matricula, double salario, double bonusAnual, String equipeSobGerencia) {
+        super(nome, matricula, salario);
         this.bonusAnual = bonusAnual;
         this.equipeSobGerencia = equipeSobGerencia;
     }
+
+
 
     @Override
     public double calcularSalario() {
