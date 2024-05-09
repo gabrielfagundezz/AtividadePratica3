@@ -30,6 +30,10 @@ public class Gerente extends Funcionario{
         return "O Gerente " + getNome() + " trabalhou!";
     }
 
+    public void equipeGerencia(){
+        System.out.println("Equipe sob gerencia: " + equipeSobGerencia);
+    }
+
     
     
 

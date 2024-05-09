@@ -24,5 +24,9 @@ public class Desenvolvedor extends Funcionario {
         return "O Desenvolvedor " + getNome() + " relatou progresso!";
     }
 
+    public void tecnologias(){
+        System.out.println("Tecnologias que domina: " + tecnologias);
+    }
+
 
 }

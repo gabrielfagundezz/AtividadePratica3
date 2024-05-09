@@ -30,5 +30,9 @@ public class Estagiario extends Funcionario {
         return "O Estagiário " + getNome() + " relatou progresso!";
     }
 
+    public void supervisor(){
+        System.out.println("Supervisor: " + supervisor);
+    }
+
     
 }
